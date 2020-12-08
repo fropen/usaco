@@ -26,7 +26,7 @@ public class wormhole {
             for (int j = 1; j <= n; j++) {
                 if (Y[j] == Y[i] && X[j] > X[i] && (X[j] < X[next_step[i]] || next_step[i] == 0)) {
                     next_step[i] = j;
-                    System.out.println(i + "->" + j);
+                    //System.out.println(i + "->" + j);
                 }
             }
         }
